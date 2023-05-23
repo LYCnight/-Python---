@@ -8,7 +8,19 @@
 >>生成(n,m)的正态分布随机数矩阵: data = np.random.randn(n,m)  
 >>广播，线性代数
 ## pandas
->特点：表格操作，时间序列，索引，过滤，清洗，插值，数据聚合，数据分块
+>特点：表格操作，时间序列，索引，过滤，清洗，插值，数据聚合，数据分块  
+>数据类型：Series，DataFrame  
+>DataFrame  
+>> data = np.DataFrame(表)  
+>>>竖着的是columns，横着的是index，可以修改  
+>>索引  
+>>Data[0] 索引第一行  
+>>iloc 整数位置索引  
+>>>data.iloc[0] 选取第一行  
+>>>data.iloc[0,[0,1]] 选取第一行的第一列和第二列  
+>>loc 标签索引  
+>>> data.loc['Colorado', ['two', 'three']]  
+ 
 ## matplotlib:
 >特点：制图
 
